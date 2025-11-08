@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BusLife Germany</title>
+<style>
+  body {
+    font-family: 'Arial', sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  header {
+    background-color: #004080;
+    color: white;
+    padding: 30px 10px;
+  }
+  header h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  header p {
+    margin: 5px 0;
+    font-size: 0.9em;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 0 15px;
+  }
+
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px auto;
+    border: 3px solid #004080;
+  }
+
+  .button {
+    display: block;
+    background-color: #004080;
+    color: white;
+    padding: 15px;
+    margin: 10px 0;
+    text-decoration: none;
+    font-size: 1.05em;
+    border-radius: 12px;
+    transition: background 0.3s, transform 0.2s;
+  }
+  .button:hover {
+    background-color: #0066cc;
+    transform: scale(1.02);
+  }
+
+  .button.paypal { background-color: #003087; }
+  .button.email { background-color: #dd4b39; }
+  .button.youtube { background-color: #ff0000; }
+  .button.advice { background-color: #ff9900; }
+
+  .section {
+    background-color: white;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: left;
+  }
+
+  footer {
+    font-size: 0.8em;
+    color: #555;
+    margin: 20px 0;
+  }
+
+  @media (max-width: 480px) {
+    header h1 { font-size: 1.6em; }
+    .button { font-size: 1em; padding: 14px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>🚍 BusLife Germany</h1>
+  <p>Ζωή και εργασία στη Γερμανία – Συμβουλές από έναν Έλληνα οδηγό λεωφορείου</p>
+  <p>Leben und Arbeiten in Deutschland – Tipps von einem griechischen Busfahrer</p>
+</header>
+
+<div class="container">
+
+  <!-- Προφίλ -->
+  <img src="https://via.placeholder.com/120" alt="Konstantinos Psouroukis" class="profile-pic">
+
+  <!-- YouTube -->
+  <a href="https://youtube.com/@konstantinos1981?si=DY7sFhxCvcEzqlNc" target="_blank" class="button youtube">
+    🎥 Δες τα βίντεό μου / Schau die Videos
+  </a>
+
+  <!-- Προσωπική συμβουλευτική -->
+  <a href="mailto:Busfahrerarbeitsplatz@gmail.com" class="button advice">
+    💬 Κλείσε προσωπική συμβουλευτική / Online Beratung
+  </a>
+
+  <!-- Πληρωμή PayPal -->
+  <a href="https://www.paypal.me/konstantinospsouroukis" target="_blank" class="button paypal">
+    💰 Πληρωμή μέσω PayPal
+  </a>
+
+  <!-- Email -->
+  <a href="mailto:Busfahrerarbeitsplatz@gmail.com" class="button email">
+    📧 Στείλε μου email / Schreib mir
+  </a>
+
+  <!-- Σχετικά με εμένα -->
+  <div class="section">
+    <h3>💡 Σχετικά με εμένα / Über mich</h3>
+    <p>🇬🇷 Είμαι Έλληνας οδηγός λεωφορείου στη Γερμανία και δείχνω πώς μπορεί κάποιος να ξεκινήσει με επιτυχία.</p>
+    <p>🇩🇪 Ich bin griechischer Busfahrer in Deutschland und zeige, wie man erfolgreich starten kann.</p>
+  </div>
+
+</div>
+
+<footer>
+  &copy; 2025 BusLife Germany
+</footer>
+
+</body>
+</html>
